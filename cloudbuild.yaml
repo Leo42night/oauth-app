@@ -21,6 +21,8 @@ steps:
       - '--platform'
       - 'managed'
       - '--allow-unauthenticated'
+      - '--ingress'
+      - 'all'
       - '--add-cloudsql-instances'
       - '${_CLOUDSQL_INSTANCE}'
       - '--set-env-vars'
