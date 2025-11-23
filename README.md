@@ -232,3 +232,12 @@ gcloud secrets delete db-password
 - [Cloud Run Documentation](https://cloud.google.com/run/docs)
 - [Cloud SQL Documentation](https://cloud.google.com/sql/docs)
 - [Google OAuth 2.0 Documentation](https://developers.google.com/identity/protocols/oauth2)
+
+## Connect Github
+- Masuk ke IAM -> tambahkan permission "Secret Accessor" ke service account
+- Masuk Cloud Build / Triggers -> Connect Repository
+- Region: asia-southeast1
+- Event: Push to a branch
+- Source: Cloud Build repositories
+- Type: Cloud Build yaml
+- Location: Repository
