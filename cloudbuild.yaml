@@ -27,8 +27,7 @@ steps:
       - '${_CLOUDSQL_INSTANCE}'
       - '--set-env-vars'
       - 'DB_USER=${_DB_USER},DB_NAME=${_DB_NAME},DB_UNIX_SOCKET=/cloudsql/${_CLOUDSQL_INSTANCE},GOOGLE_CLIENT_ID=${_GOOGLE_CLIENT_ID},GOOGLE_CLIENT_SECRET=${_GOOGLE_CLIENT_SECRET},GOOGLE_REDIRECT_URI=${_GOOGLE_REDIRECT_URI}'
-      - '--set-secrets'
-      - 'DB_PASS=${_DB_PASS_SECRET}:latest'
+      - --set-secrets=DB_PASS=${_DB_PASS_SECRET}:latest
 
 images:
   - 'gcr.io/$PROJECT_ID/oauth-app'
