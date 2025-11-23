@@ -239,5 +239,6 @@ gcloud secrets delete db-password
 - Region: asia-southeast1
 - Event: Push to a branch
 - Source: Cloud Build repositories
+- Add Substitution variables: pakai di cloudbuild.yaml
 - Type: Cloud Build yaml
 - Location: Repository
