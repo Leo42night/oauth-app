@@ -123,7 +123,7 @@ if (isset($_SESSION['user_id'])) {
             </div>
         <?php else: ?>
             <div class="welcome">
-                <h1>Google OAuth Login</h1>
+                <h1>Google OAuth Login (Github Trigger)</h1>
                 <p style="color: #666; margin: 20px 0;">Sign in with your Google account to continue</p>
                 <a href="login.php" class="btn google-btn">
                     <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
