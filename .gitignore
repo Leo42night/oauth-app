@@ -1,4 +1,7 @@
 google-client-secret.json
 script.txt
-.env
+.env.production
+.env.local
 cloud-sql-proxy*
+kelas-pbo.txt
+vendor/

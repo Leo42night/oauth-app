@@ -77,7 +77,8 @@ DB_NAME="oauth_app"
 ```
 Export semua env ke terminal:
 ```bash
-export $(grep -v '^#' .env | xargs)
+export $(grep -v '^#' .env.production | xargs)
+export $(grep -v '^#' .env.local | xargs)
 # cek: echo $DB_PASS
 ```
 

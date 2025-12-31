@@ -1,5 +1,8 @@
 .env.yaml
 google-client-secret.json
 script.txt
+.env.local
 .env
 cloud-sql-proxy
+.env.production
+
